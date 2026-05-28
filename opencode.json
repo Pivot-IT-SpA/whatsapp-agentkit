@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "google/gemini-2.5-pro",
+  "small_model": "google/gemini-2.5-flash",
+  "instructions": [
+    "AGENTKIT.md"
+  ],
+  "command": {
+    "build-agent": {
+      "description": "Inicia el onboarding de AgentKit",
+      "template": "Lee el archivo AGENTKIT.md completo y ejecuta el flujo de onboarding de AgentKit siguiendo las 5 fases en orden. Habla siempre en espanol, haz una pregunta a la vez, no avances de fase sin confirmacion del usuario y genera el agente usando Gemini API."
+    }
+  }
+}

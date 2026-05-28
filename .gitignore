@@ -21,7 +21,7 @@ build/
 knowledge/*
 !knowledge/.gitkeep
 
-# Archivos generados por Claude Code durante onboarding
+# Archivos generados por OpenCode durante onboarding
 agent/
 config/
 tests/
@@ -46,5 +46,5 @@ Thumbs.db
 # Docker
 .dockerignore
 
-# Node (si se usa para Claude Code)
+# Node (si se usa para tooling)
 node_modules/
